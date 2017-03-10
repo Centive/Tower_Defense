@@ -1,0 +1,10 @@
+<GameObjects>
+    <Components>
+        <TransformComponent>
+            <Vector3 name="x">5
+                <Float />
+            </Vector3>
+        </TransformComponent>
+        <ColliderComponent />
+    </Components>
+</GameObjects>

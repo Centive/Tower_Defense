@@ -1,0 +1,43 @@
+<GameObject>
+  <Components>
+    <TeamComponent>
+      <unsignedInt name="TeamID">2</unsignedInt>
+    </TeamComponent>
+    <TransformComponent>
+      <Vector3 name="Position">
+        <Float name="x">110</Float>
+        <Float name="y">0</Float>
+        <Float name="z">65</Float>
+      </Vector3>
+    </TransformComponent>
+	<HealthComponent>
+      <Float name="MaxHealth">3</Float>
+    </HealthComponent>
+	<ColliderComponent>
+      <Vector3 name="Center">
+        <Float name="x">0</Float>
+        <Float name="y">1</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Vector3 name="Extend">
+        <Float name="x">0.5</Float>
+        <Float name="y">1</Float>
+        <Float name="z">0.5</Float>
+      </Vector3>
+      <Color name="Color">
+        <Float name="r">1</Float>
+        <Float name="g">0</Float>
+        <Float name="b">1</Float>
+        <Float name="a">1</Float>
+      </Color>
+    </ColliderComponent>
+	<ModelComponent>
+      <String name="Filename">../Data/Models/jeep.txt</String>
+    </ModelComponent>
+	<TowerComponent>
+      <String name="FileName">../Data/Levels/Level1_objs/Tower_Bullet.xml</String>
+      <Float name="FireRate">1</Float>
+      <Float name="UnitSpeed">10.0f</Float>
+    </TowerComponent>
+  </Components>
+</GameObject>

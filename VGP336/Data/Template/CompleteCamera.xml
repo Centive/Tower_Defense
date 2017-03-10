@@ -1,0 +1,53 @@
+<GameObjects>
+  <GameObject>
+    <Name>Free Camera</Name>
+    <Template>../Data/Template/rts_camera.xml</Template>
+  </GameObject>
+  <GameObject>
+    <Name>Red Box</Name>
+    <Template>../Data/Template/red_box.xml</Template>
+    <Vector3 name = "Position">
+      <float name = "x">5</float>
+      <float name = "y">5</float>
+      <float name = "z">0</float>
+    </Vector3>
+  </GameObject>
+  <GameObject>
+    <Name>Green Box</Name>
+    <Template>../Data/Template/green_box.xml</Template>
+    <Vector3 name = "Position">
+      <float name = "x">10</float>
+      <float name = "y">0</float>
+      <float name = "z">0</float>
+    </Vector3>
+  </GameObject>
+  <GameObject>
+    <Name>Blue Box</Name>
+    <Template>../Data/Template/blue_box.xml</Template>
+    <Vector3 name = "Position">
+      <float name = "x">0</float>
+      <float name = "y">0</float>
+      <float name = "z">10</float>
+    </Vector3>
+  </GameObject>
+  <GameObject>
+    <Name>Blue Box</Name>
+    <Template>../Data/Template/terrain.xml</Template>
+  </GameObject>
+  <GameObject>
+    <Name>Rubber Ducky</Name>
+    <Template>../Data/Template/RubberDuckyModel_Obj.xml</Template>
+  </GameObject>
+  <GameObject>
+    <Name>Sword Cursor</Name>
+    <Template>../Data/Template/swordCursor.xml</Template>
+  </GameObject>
+  <GameObject>
+    <Name>Robot Ducky</Name>
+    <Template>../Data/Template/RubberDuckyModel_AI.xml</Template>
+  </GameObject>
+  <GameObject>
+    <Name>big baaaang</Name>
+    <Template>../Data/Template/spawner.xml</Template>
+  </GameObject>
+</GameObjects>

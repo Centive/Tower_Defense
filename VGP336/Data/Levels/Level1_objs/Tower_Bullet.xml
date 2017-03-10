@@ -1,0 +1,37 @@
+<GameObject>
+  <Components>
+    <TeamComponent>
+      <unsignedInt name="TeamID">2</unsignedInt>
+    </TeamComponent>
+    <TransformComponent>
+      <Vector3 name="Position">
+        <Float name="x">5</Float>
+        <Float name="y">5</Float>
+        <Float name="z">5</Float>
+      </Vector3>
+    </TransformComponent>
+    <ModelComponent>
+      <String name="Filename">../Data/Models/duck.txt</String>
+    </ModelComponent>
+	<ColliderComponent>
+      <Vector3 name="Center">
+        <Float name="x">0</Float>
+        <Float name="y">1</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Vector3 name="Extend">
+        <Float name="x">0.5</Float>
+        <Float name="y">1</Float>
+        <Float name="z">0.5</Float>
+      </Vector3>
+      <Color name="Color">
+        <Float name="r">0</Float>
+        <Float name="g">1</Float>
+        <Float name="b">1</Float>
+        <Float name="a">1</Float>
+      </Color>
+    </ColliderComponent>
+	<BulletComponent>
+    </BulletComponent>
+  </Components>
+</GameObject>

@@ -1,0 +1,13 @@
+<GameObject>
+  <Components>
+    <SpriteComponent>
+      <Vector2 name="Position">
+        <Float name="x">5</Float>
+        <Float name="y">5</Float>
+      </Vector2>
+      <String name="TextureName">sword_cursor</String>
+    </SpriteComponent>
+    <CursorComponent>
+    </CursorComponent>
+  </Components>
+</GameObject>

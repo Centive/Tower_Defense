@@ -1,0 +1,8 @@
+<GameObject>
+  <Components>
+    <CameraComponent>
+    </CameraComponent>
+    <CameraControllerComponent>
+    </CameraControllerComponent>
+  </Components>
+</GameObject>

@@ -1,0 +1,26 @@
+<GameObjects>
+  <GameObject>
+    <Name>RTS_Camera</Name>
+    <Template>../Data/Levels/Level1_objs/RTS_Camera.xml</Template>
+  </GameObject>
+  <GameObject>
+    <Name>Terrain</Name>
+    <Template>../Data/Levels/Level1_objs/Terrain.xml</Template>
+  </GameObject>
+  <GameObject>
+    <Name>Cursor</Name>
+    <Template>../Data/Levels/Level1_objs/Cursor.xml</Template>
+  </GameObject>
+  <GameObject>
+    <Name>Ducky_Tower</Name>
+    <Template>../Data/Levels/Level1_objs/Tower1.xml</Template>
+  </GameObject>
+  <GameObject>
+    <Name>Spawner</Name>
+    <Template>../Data/Levels/Level1_objs/Spawner.xml</Template>
+  </GameObject>
+  <GameObject>
+    <Name>Builder</Name>
+    <Template>../Data/Levels/Level1_objs/Builder.xml</Template>
+  </GameObject>
+</GameObjects>

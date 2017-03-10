@@ -1,0 +1,16 @@
+<GameObject>
+  <Components>
+    <SpawnerComponent>
+      <String name="FileName">../Data/Template/RubberDuckyModel_AI.xml</String>
+      <String name="ObjectName">big bang</String>
+      <Float name="Cooldown">3</Float>
+    </SpawnerComponent>
+    <TransformComponent>
+      <Vector3 name="Position">
+        <Float name="x">5</Float>
+        <Float name="y">0</Float>
+        <Float name="z">5</Float>
+      </Vector3>
+    </TransformComponent>
+  </Components>
+</GameObject>

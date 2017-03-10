@@ -1,0 +1,6 @@
+<GameObjects>
+    <Components>
+        <TransformComponent />
+        <ColliderComponent />
+    </Components>
+</GameObjects>

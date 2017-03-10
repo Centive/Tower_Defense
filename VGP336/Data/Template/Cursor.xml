@@ -1,0 +1,9 @@
+<GameObject>
+  <Components>
+    <CursorComponent>
+    </CursorComponent>
+    <SpriteComponent>
+      <String name="Filename">../Data/Images/sword.png</String>
+    </SpriteComponent>
+  </Components>
+</GameObject>

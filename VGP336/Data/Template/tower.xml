@@ -1,0 +1,14 @@
+<GameObject>
+  <Components>
+    <TerrainComponent>
+      <String name="Filename">../Data/Heightmaps/heightmap.raw</String>
+      <String name="TextureFilename">../Data/Images/grass.jpg</String>
+      <unsignedInt name="Width">256</unsignedInt>
+      <unsignedInt name="Length">256</unsignedInt>
+      <unsignedInt name="Layer">0</unsignedInt>
+      <Float name="MaxHeight">10</Float>
+      <Float name="MinHeight">0</Float>
+      <Float name="Frequency">15</Float>
+    </TerrainComponent>
+  </Components>
+</GameObject>

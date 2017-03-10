@@ -1,0 +1,7 @@
+<GameObject>
+  <Components>
+    <ModelComponent>
+      <String name="Filename">../Data/Models/duck.txt</String>
+    </ModelComponent>
+  </Components>
+</GameObject>
